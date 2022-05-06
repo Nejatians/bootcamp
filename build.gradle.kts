@@ -6,6 +6,7 @@ plugins {
 	kotlin("jvm") version "1.6.21"
 	kotlin("plugin.spring") version "1.6.21"
 	id("com.google.cloud.tools.jib") version "3.2.1"
+	id("org.asciidoctor.jvm.convert") version "3.1.0"
 }
 
 group = "bcg.dv"
